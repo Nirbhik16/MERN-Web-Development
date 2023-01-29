@@ -1,0 +1,55 @@
+li, div{
+    color:rgb(199, 199, 10);
+}
+
+/* .class{
+    color:green;
+} */
+body{
+    /* background-color: aqua; */
+    /* background-image: url(download.jpg);
+    background-repeat:no-repeat;
+    background-position: right top;*/
+    background-attachment:fixed; 
+
+    background: #e7e7da;
+    /* text-align:center; */
+}
+
+.class{
+    border-style:solid; /*dotted,dashed*/
+    border-width: 2px;
+    border-color:red;
+    margin:30px 7px 5px;
+    outline:4px solid black;
+}
+
+.mycont{
+    border:2px solid black;
+    margin:14px auto;
+    text-align:center; 
+    
+}
+form {
+   /* margin-left:auto;
+   margin-right:auto;
+   justify-content: right;
+   vertical-align:middle;
+   margin:2px;
+   align-items:center; */
+   margin:auto;
+}
+input{
+    padding:6px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+label{
+    display:block;
+    margin:10px 0px;
+    text-align:right;
+    display:inline-block;
+}
+input{
+    align-items: center;
+}

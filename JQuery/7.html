@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression</title>
+    <script src="Jquery.js"></script>
+</head>
+<body>
+    <script>
+        // var str="This is regular expression.";
+        // var regex = /regular/;
+        //To avoid case sensitiveness
+        //var regex = /Regular/i;
+
+        //To find number of occurences of a word
+        var str="This is regular regular regular expression.";
+        var regex = /regular/g;
+        var result= str.match(regex);
+        alert(result);
+    </script>
+</body>
+</html>

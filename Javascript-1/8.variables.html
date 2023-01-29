@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varables</title>
+</head>
+<body>
+    <input id="input1" type="text">
+    <button id="button1">Submit</button>
+    <p id="para1">This is a para 1</p>
+    <script>
+        //var x=10;
+        //console.log(x);
+        //x="Rahul";
+        //console.log(x);
+        document.getElementById("button1").onclick= function(){
+            var val="";
+            val= document.getElementById("input1").value;
+            document.getElementById("para1").innerHTML=val;
+        }
+    </script>
+</body>
+</html>

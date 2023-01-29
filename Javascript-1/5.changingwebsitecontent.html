@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing Website Content</title>
+</head>
+<body>
+    <p id="para">Javascript is awesome </p>
+    <button id="add">Click me</button>
+    <script>
+    document.getElementById("add").onclick=function(){
+        //FOR APPENDING THE EXISITING STRING
+        //document.getElementById("para").innerHTML=document.getElementById("para").innerHTML+"awesome";
+
+        //FOR ADDING TEXT BEFORE THE EXISITING STRING
+        document.getElementById("para").innerHTML="I think " + document.getElementById("para").innerHTML;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-style</title>
+    <style>
+        .bold{
+            font-weight:bold;
+        }
+        .italic{
+            font-style:italic;
+        }
+        .underline{
+            text-decoration:underline;
+        }
+        a{
+            text-decoration: none;
+        }
+        /* Pseudo Selector */
+        a:hover{
+            color:green;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <p class="bold">This is line 1.</p>
+    <p class="italic">This is line 2. <span class="bold">And some more text.</span></p>
+    <p class="underline">This is line 3.</p>
+    <a href="">Link to google</a>
+</body>
+</html>

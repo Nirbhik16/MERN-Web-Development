@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>First element</li>
+        <li>Second element</li>
+        <li>Third element</li>       
+    </ul>
+    <table>
+        <tr>
+            <td>One</td>
+            <td>One</td>
+        </tr>
+
+        <tr>
+            <td>three</td>
+            <td>four</td>
+        </tr>
+        
+    </table>
+
+    <script>
+        //Root Node
+        console.log(document.documentElement)
+
+        //Element Node
+        // console.log(document.body)
+        // console.log(document.head)
+        // console.log(document.body.childNodes)
+        // console.log(document.body.children)
+        // console.log(document.body.children)
+        // console.log(document.body.children)
+        // console.log(document.body.lastElementChild)
+        // for(node of document.body.children){
+        //     console.log(node)
+        // }
+        // const childrenOfBody=Array.from(document.body.children)
+        // console.log(childrenOfBody)
+
+        // //Siblings
+        // const ulTag= document.body.children[0]
+        // const firstLi=ulTag.children[0]
+        // const secondLi=ulTag.children[1]
+        // console.log(secondLi.previousElementSibling.textContent)
+
+
+        //Table
+        const tableTag = document.body.children[1]
+        console.log(tableTag.tBodies[0].rows[0].cells[1].style="background-color:blue;")
+    </script>
+</body>
+</html>
